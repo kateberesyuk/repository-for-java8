@@ -24,6 +24,17 @@ public class Methods {
         String result = list.get(0);
         return result;
     }
+
+    //    Вернуть последний элемент коллекции или «empty», если коллекция пуста
+    public String lastElement(List<String> list) {
+        if(list.size() == 0){
+            return "0";
+        }
+        String result = list.get(3);
+        return result;
+    }
+
+
 }
 
 

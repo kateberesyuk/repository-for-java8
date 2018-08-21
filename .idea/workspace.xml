@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3620e19d-2233-4389-9110-1aad66b5263e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/com/poliarush/Methods.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/com/poliarush/MethodsTest.java" afterPath="$PROJECT_DIR$/Test/com/poliarush/MethodsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/poliarush/Methods.java" afterPath="$PROJECT_DIR$/src/com/poliarush/Methods.java" />
     </list>
@@ -23,8 +22,8 @@
       <file leaf-file-name="Methods.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/poliarush/Methods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="442">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -33,8 +32,8 @@
       <file leaf-file-name="MethodsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/com/poliarush/MethodsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+            <state relative-caret-position="362">
+              <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +63,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Test/com/poliarush/MethodsTest.groovy" />
-        <option value="$PROJECT_DIR$/Test/com/poliarush/MethodsTest.java" />
         <option value="$PROJECT_DIR$/src/com/poliarush/Methods.java" />
+        <option value="$PROJECT_DIR$/Test/com/poliarush/MethodsTest.java" />
       </list>
     </option>
   </component>
@@ -174,7 +173,7 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MethodsTest.testfirstElement">
+  <component name="RunManager" selected="JUnit.MethodsTest.testlastElement">
     <configuration default="false" name="MethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -240,6 +239,32 @@
       <option name="PACKAGE_NAME" value="com.poliarush" />
       <option name="MAIN_CLASS_NAME" value="com.poliarush.MethodsTest" />
       <option name="METHOD_NAME" value="testCountA1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MethodsTest.testlastElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.poliarush.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Java8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.poliarush" />
+      <option name="MAIN_CLASS_NAME" value="com.poliarush.MethodsTest" />
+      <option name="METHOD_NAME" value="testlastElement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -626,16 +651,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MethodsTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MethodsTest.testfirstElement" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.MethodsTest.testCountA1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MethodsTest.testlastElement" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MethodsTest.testfirstElement" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MethodsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MethodsTest.testCountA1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MethodsTest.testlastElement" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MethodsTest.testfirstElement" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MethodsTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MethodsTest.testCountA1" />
       </list>
     </recent_temporary>
   </component>
@@ -649,7 +676,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534841894663</updated>
-      <workItem from="1534841897087" duration="4794000" />
+      <workItem from="1534841897087" duration="5342000" />
     </task>
     <servers />
   </component>
@@ -666,9 +693,21 @@
     <history-entry file="MethodsTest_testfirstElement - 2018.08.21 at 13h 12m 50s.xml">
       <configuration name="MethodsTest.testfirstElement" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MethodsTest_testfirstElement - 2018.08.21 at 13h 26m 45s.xml">
+      <configuration name="MethodsTest.testfirstElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest_testlastElement - 2018.08.21 at 13h 27m 42s.xml">
+      <configuration name="MethodsTest.testlastElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest_testlastElement - 2018.08.21 at 13h 28m 02s.xml">
+      <configuration name="MethodsTest.testlastElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest_testlastElement - 2018.08.21 at 13h 28m 12s.xml">
+      <configuration name="MethodsTest.testlastElement" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4794000" />
+    <option name="totallyTimeSpent" value="5342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1052" extended-state="0" />
@@ -730,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/com/poliarush/MethodsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+        <state relative-caret-position="362">
+          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -740,8 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/poliarush/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="442">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>

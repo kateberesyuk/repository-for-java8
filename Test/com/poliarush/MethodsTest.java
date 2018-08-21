@@ -45,5 +45,15 @@ public class MethodsTest {
         assertEquals(expectedResult, actualResult);
     }
 
+//    Вернуть последний элемент коллекции или «empty», если коллекция пуста
+    @Test
+
+    public void testlastElement() {
+        List<String> list = Arrays.asList("a1", "a2", "a3", "a1");
+        String expectedResult="a1";
+        String actualResult = methods.lastElement(list);
+        assertEquals(expectedResult, actualResult);
+    }
+
 
 }
