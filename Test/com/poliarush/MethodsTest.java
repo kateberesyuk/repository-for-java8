@@ -31,7 +31,7 @@ public class MethodsTest {
 
     @Test
 //    Вернуть первый элемент коллекции или 0, если коллекция пуста
-     public void testfirstElement () {
+    public void testfirstElement() {
 //        List<String> list = new ArrayList<>();
 //        list.add("a1");
 //        list.add("a2");
@@ -39,10 +39,10 @@ public class MethodsTest {
 //        list.add("a1");
         List<String> list = Arrays.asList("a1", "a2", "a3", "a1");
 
-        int expectedCount =0;
-        int actualCount = methods.firstElement(list);
+        String expectedResult = "a1";
+        String actualResult = methods.firstElement(list);
 
-        assertEquals(expectedCount, actualCount);
+        assertEquals(expectedResult, actualResult);
     }
 
 
